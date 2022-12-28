@@ -8,14 +8,15 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
             integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
             crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./index.css">
         <title>Document</title>
     </head>
     <body>
-        <header>
-            <div class="mobile"><a href=""><i class="fa-sharp fa-solid fa-bars"></i></a></div>
-            <div class="logo"><img src="./image/logo.webp" alt="logo"></div>
-            <nav>
+        <header class="header">
+            <div class="header__mobile"><a href=""><i class="fa-sharp fa-solid fa-bars"></i></a></div>
+            <div class="header__logo"><img src="./image/logo.webp" alt="logo"></div>
+            <nav class="header__nav">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About us</a></li>
@@ -56,15 +57,15 @@
         <main>
             <section class="slideshow">
                 <img src="./image/slide02.jpg" alt="slideshow">
-                <article class="slideshow_content">
+                <article class="slideshow__content">
                     <img src="./image/slider-logo.webp" alt="slider-logo">
                     <h3>Best recipes with best ingredients</h3>
-                    <h1>FOOD HOUSE</h1>
+                    <h6>FOOD HOUSE</h6>
                     <p>Since 1998</p>
                 </article>
             </section>
             <section class="content">
-                <h1>WE ARE SPECIAL</h1>
+                <h6>WE ARE SPECIAL</h6>
                 <h2>AT OUR FOOD HOUSE, WE BRING YOU THE SAME WONDERFUL
                     EXPERIENCES WE<br>
                     GREW UP ON: FROM OUR WARM ITALIAN HOSPITALITY, HANDMADE
@@ -85,13 +86,13 @@
                 <a href="">read more</a>
             </section>
             <article class="receiveQuality">
-                <h1>RECEIVE GREAT FOOD<br>
+                <h6>RECEIVE GREAT FOOD<br>
                     AND HIGH QUALITY<br>
-                    SERVICE</h1>
+                    SERVICE</h6>
             </article>
             <section class="gallery">
-                <section class="gallery_nav">
-                    <h1>OUR GALLERY</h1>
+                <section class="gallery__nav">
+                    <h6>OUR GALLERY</h6>
                     <nav>
                         <ul>
                             <li><a href="">SHOW ALL</a></li>
@@ -101,7 +102,7 @@
                         </ul>
                     </nav>
                 </section>
-                <section class="gallery_category">
+                <section class="gallery__category">
                     <figure>
                         <img src="./image/1.png" alt="Artisan breads"
                             style="width:100%">
@@ -176,12 +177,12 @@
                 </section>
             </section>
             <section class="offer">
-                <h1>WHAT THE OFFER</h1>
+                <h6>WHAT THE OFFER</h6>
                 <P>ENJOYING GREAT FOOD AND WINE IS TWO OF LIFE’S GREAT PLEASURES
                     AND WE SINCERELY HOPE THAT YOU EXPERIENCE BOTH<br>
                     DURING YOUR TIME WITH US . . . TODAY AND ALWAYS!</P>
-                <article class="offer_menu">
-                    <article class="offer_menu--breakfast">
+                <article class="offer__menu">
+                    <article class="offer__menu--breakfast">
                         <img src="./image/service-icon4.webp" alt="service4">
                         <a href="">BREAKFAST MENU</a>
                         <p>
@@ -191,7 +192,7 @@
                             look forward to seeing you enjoy.
                         </p>
                     </article>
-                    <article class="offer_menu--lunch">
+                    <article class="offer__menu--lunch">
                         <img src="./image/service-icon3.webp" alt="service3">
                         <a href="">LUNCH MENU</a>
                         <p>
@@ -201,7 +202,7 @@
                             desserts for you to choose from.
                         </p>
                     </article>
-                    <article class="offer_menu--supper">
+                    <article class="offer__menu--supper">
                         <img src="./image/service-icon2.webp" alt="service2">
                         <a href="">SUPPER MENU</a>
                         <p>
@@ -211,7 +212,7 @@
                             evening!
                         </p>
                     </article>
-                    <article class="offer_menu--dinner">
+                    <article class="offer__menu--dinner">
                         <img src="./image/service-icon1.webp" alt="service1">
                         <a href="">DINNER MENU</a>
                         <p>
@@ -224,10 +225,10 @@
                 </article>
             </section>
             <sectiion class="menu">
-                <h1>OUR MENU</h1>
+                <h6>OUR MENU</h6>
                 <article>
                     <article>
-                        <h1>CHICKEN</h1>
+                        <h6>CHICKEN</h6>
                         <nav>
                             <ul>
                                 <li>
@@ -266,7 +267,7 @@
                         </nav>
                     </article>
                     <article>
-                        <h1>DESSERTS</h1>
+                        <h6>DESSERTS</h6>
                         <nav>
                             <ul>
                                 <li>
@@ -305,7 +306,7 @@
                         </nav>
                     </article>
                     <article>
-                        <h1>SALADS</h1>
+                        <h6>SALADS</h6>
                         <nav>
                             <ul>
                                 <li>
@@ -344,7 +345,7 @@
                         </nav>
                     </article>
                     <article>
-                        <h1>PASTA & RAVIOLI</h1>
+                        <h6>PASTA & RAVIOLI</h6>
                         <nav>
                             <ul>
                                 <li>
@@ -392,14 +393,14 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <article>
                 <img src="./image/footer-logo.webp" alt="footer-logo">
                 <p>© 2022 |<a href="">Privacy Policy</a></p>
 
             </article>
             <article>
-                <h1>GET IN TOUCH WITH US</h1>
+                <h6>GET IN TOUCH WITH US</h6>
                 <p>Reserve a spacious room, set the menu, choose the<br>
                      drinks and invite guests. Delight in our service!</p>
                 <article>
@@ -408,7 +409,7 @@
                 </article>
             </article>
             <article>
-                <h1>FOLLOW US ON FACEBOOK</h1>
+                <h6>FOLLOW US ON FACEBOOK</h6>
                 <img src="./image/footer-fb.png" alt="footer-fb">
             </article>
         </footer>
