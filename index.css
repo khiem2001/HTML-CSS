@@ -174,7 +174,7 @@ main {
     font-style: italic;
 }
 
-.slideshow .slideshow__content h6 {
+.slideshow .slideshow__content h4 {
     font-size: 100px;
 }
 
@@ -219,7 +219,7 @@ main {
     padding-bottom: 120px;
 }
 
-.content h6 {
+.content h4 {
     font-size: 30px;
     font-weight: 300;
     padding-top: 120px;
@@ -263,7 +263,7 @@ main {
     padding: 150px 0px;
 }
 
-.receiveQuality h6 {
+.receiveQuality h4 {
     color: #fff;
     font-size: 80px;
     font-weight: 500;
@@ -282,7 +282,7 @@ main {
     flex-direction: column;
 }
 
-.gallery>.gallery__nav h6 {
+.gallery>.gallery__nav h4 {
     color: #fff;
     font-size: 30px;
     margin-bottom: 30px;
@@ -381,7 +381,7 @@ main {
     justify-content: center;
 }
 
-.offer>h6 {
+.offer>h4 {
     text-align: center;
     font-size: 25px;
     font-weight: 300;
@@ -439,7 +439,7 @@ main {
     flex-direction: column;
 }
 
-.menu>h6 {
+.menu>h4 {
     margin-left: 570px;
     font-size: 30px;
     font-weight: 400;
@@ -461,7 +461,7 @@ main {
     margin-bottom: 50px;
 }
 
-.menu>article>article>h6 {
+.menu>article>article>h4 {
     color: rgb(246, 106, 18);
     margin-bottom: 13px;
 }
@@ -502,7 +502,7 @@ main {
     margin-top: 5px;
 }
 
-.footer article h6 {
+.footer article h4 {
     font-size: 25px;
     color: #fff;
     margin-bottom: 10px;
@@ -568,7 +568,7 @@ main {
         font-size: 13px;
     }
 
-    .slideshow .slideshow__content h6 {
+    .slideshow .slideshow__content h4 {
         font-size: 18px;
     }
 
@@ -580,7 +580,7 @@ main {
         padding-bottom: 50px;
     }
 
-    .content h6 {
+    .content h4 {
         font-size: 17px;
         font-weight: 300;
         padding-top: 50px;
@@ -610,14 +610,14 @@ main {
         padding: 50px 0px;
     }
     
-    .receiveQuality h6 {
+    .receiveQuality h4 {
         font-size: 20px;
     }
     .gallery .gallery__nav {
         padding-top: 55px;
         padding-bottom: 25px;
     }
-    .gallery>.gallery__nav h6 {
+    .gallery>.gallery__nav h4 {
         font-size: 25px;
         margin-bottom: 25px;
     }
@@ -659,7 +659,7 @@ main {
     .offer .offer__menu>article img {
         margin-bottom: 5px;
     }
-    .menu>h6 ,
+    .menu>h4 ,
     .menu>article{
         margin:auto;
         margin-top: 30px;
@@ -678,7 +678,7 @@ main {
         height: 100px;
         width: auto;
     }
-    .footer article h6 {
+    .footer article h4 {
         font-size: 18px;
         color: #fff;
         margin: 20px 0 10px;
@@ -714,7 +714,7 @@ main {
     .slideshow .slideshow__content {
         top: 40%;
     }
-    .slideshow .slideshow__content h6 {
+    .slideshow .slideshow__content h4 {
         font-size: 28px;
     }
     .slideshow .slideshow__content img {
@@ -727,13 +727,13 @@ main {
     .slideshow .slideshow__content p {
         font-size: 15px;
     }
-    .content h6,
+    .content h4,
     .content h2,
     .content p {
         margin-left: 50px;
         width: 50%;
     }
-    .receiveQuality h6 {
+    .receiveQuality h4 {
         
         font-size: 40px;
     }
@@ -761,7 +761,7 @@ main {
         margin-left: 200px;
        
     }
-    .menu>h6 {
+    .menu>h4 {
         margin-left: 200px;
     }
     .footer {
@@ -780,10 +780,10 @@ main {
     .header .header__logo {
         margin: auto 50px;
     }
-    .slideshow .slideshow__content h6 {
+    .slideshow .slideshow__content h4 {
         font-size: 50px;
     }
-    .content h6,
+    .content h4,
     .content h2,
     .content p {
         margin-left: 50px;
